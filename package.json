@@ -1,0 +1,21 @@
+{
+  "name": "argubot",
+  "version": "1.0.0",
+  "description": "AI-powered Discord debate judge bot",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "register": "node index.js --register-commands",
+    "lint": "echo \"No lint configured\""
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.7.2",
+    "openai": "^4.67.1"
+  }
+}
